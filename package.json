@@ -1,16 +1,18 @@
 {
 	"name": "fcc-infosec-challenges",
 	"version": "0.0.1",
+	"author": "Michal Szumnarski",
 	"description": "fcc backend boilerplate",
 	"main": "server.js",
 	"scripts": {
 		"start": "node myApp.js"
 	},
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.16.4",
+		"helmet": "3.18.0"
 	},
 	"engines": {
-		"node": "4.4.5"
+		"node": "10.15.3"
 	},
 	"keywords": [
 		"node",
